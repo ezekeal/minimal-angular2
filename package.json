@@ -1,0 +1,40 @@
+{
+  "name": "ang2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "wzrd app/main.js:bundle.js",
+    "lite": "lite-server"
+  },
+  "author": "Zach Koch",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-plugin-angular2-annotations": "^5.0.0",
+    "babel-plugin-transform-class-properties": "^6.6.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-flow-strip-types": "^6.7.0",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "concurrently": "^2.0.0",
+    "lite-server": "^2.2.0",
+    "wzrd": "^1.3.1"
+  },
+  "dependencies": {
+    "angular2": "^2.0.0-beta.15",
+    "es6-shim": "^0.35.0",
+    "reflect-metadata": "^0.1.3",
+    "rxjs": "^5.0.0-beta.6",
+    "zone.js": "^0.6.12"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "comments": false
+        }
+      ]
+    ]
+  }
+}
