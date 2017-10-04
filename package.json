@@ -15,8 +15,8 @@
     "babel-plugin-transform-decorators-legacy": "^1.3.4",
     "babel-plugin-transform-flow-strip-types": "^6.7.0",
     "babelify": "^7.2.0",
-    "browserify": "^13.0.0",
-    "concurrently": "^2.0.0",
+    "browserify": "^14.4.0",
+    "concurrently": "^3.5.0",
     "lite-server": "^2.2.0",
     "wzrd": "^1.3.1"
   },
@@ -25,7 +25,7 @@
     "es6-shim": "^0.35.0",
     "reflect-metadata": "^0.1.3",
     "rxjs": "^5.0.0-beta.6",
-    "zone.js": "^0.6.12"
+    "zone.js": "^0.8.18"
   },
   "browserify": {
     "transform": [
